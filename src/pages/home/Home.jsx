@@ -36,6 +36,7 @@ const url = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=$
   }
   
   return (
+    
     <div>
 <Header  setQuery={setQuery}
 getData={getData}
